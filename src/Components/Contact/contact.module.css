@@ -59,14 +59,47 @@
 }
 
 .form {
-    background-color: rgb(208, 208, 208);
-    height: 20em;
+    background-color: hsl(201, 75%, 45%);
+    height: auto;
     margin: 40px;
     padding: 30px;
     border-radius: 5px;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
 }
 
 .input {
     width: 80%;
-    background-color: rgb(208, 208, 208);
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin-bottom: 15px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    border: solid 2px #14567f;
+    color: black;
+
+}
+
+.btn {
+    width: fit-content;
+    padding: 10px;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.2s ease;
+}
+
+.btn:hover {
+    background-color: hsl(201, 100%, 50%);
+    color: aliceblue;
+}
+
+.thk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
 }

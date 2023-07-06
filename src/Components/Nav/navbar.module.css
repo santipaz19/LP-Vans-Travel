@@ -1,5 +1,5 @@
 .items {
-    background-color: #1d8bc7;
+    background-color: hsl(201, 75%, 45%);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -61,17 +61,15 @@ a {
         height: 70px;
         justify-content: flex-start;
         padding-left: 20px;
-        /* Ajusta el padding izquierdo para dispositivos móviles */
+
     }
 
     p {
         font-size: 18px;
-        /* Ajusta el tamaño de fuente para dispositivos móviles */
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         color: antiquewhite;
         justify-content: center;
         padding: 10px;
-        /* Ajusta el padding para dispositivos móviles */
         transition: color 0.3s ease;
     }
 
@@ -87,7 +85,6 @@ a {
         display: flex;
         align-items: center;
         padding-right: 20px;
-        /* Ajusta el padding derecho para dispositivos móviles */
     }
 
     .fotos {
