@@ -3,9 +3,10 @@
     align-items: center;
     text-align: center;
     justify-content: center;
+    margin: 30px;
 }
 
-.galery::after {
+.contacts::after {
     content: "";
     display: block;
     width: 33%;
@@ -22,7 +23,7 @@
 
 }
 
-.galery::before {
+.contacts::before {
     content: "";
     display: block;
     width: 33%;

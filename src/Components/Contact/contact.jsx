@@ -12,7 +12,7 @@ export default function Contact() {
     return (
         <div>
             <div className={style.contenedor}>
-                <h1 className={style.galery}>CONTACTO</h1>
+                <h1 className={style.contacts}>CONTACTO</h1>
             </div>
             <div className={style.contact}>
                 <a href={`mailto:${email}`} title={`subject=${encodeURIComponent(subject)}`} className={style.links}>
