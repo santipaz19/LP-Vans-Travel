@@ -1,0 +1,10 @@
+.contenedor {
+    background-color: rgb(105, 105, 105);
+}
+
+.img {
+    width: 100%;
+    /* Ajusta el ancho de la imagen al 100% del contenedor */
+    max-height: 90%;
+
+}

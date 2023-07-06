@@ -1,0 +1,115 @@
+h1 {
+    font-size: 90px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(93, 91, 91);
+    width: 90vw;
+    position: relative;
+    text-align: center;
+    display: block;
+    justify-content: space-around;
+
+}
+
+
+.galery::after {
+    content: "";
+    display: block;
+    width: 37%;
+    height: 4px;
+    border-radius: 20px;
+    position: absolute;
+    background-color: rgb(93, 91, 91);
+    top: 56%;
+    left: 63%;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+
+}
+
+.galery::before {
+    content: "";
+    display: block;
+    width: 37%;
+    height: 4px;
+    border-radius: 20px;
+    position: absolute;
+    background-color: rgb(93, 91, 91);
+    top: 56%;
+    z-index: 1;
+}
+
+
+h3 {
+    margin-left: 40px;
+    margin-top: 10px;
+    color: rgb(93, 91, 91);
+}
+
+.contenedor {
+    display: grid;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.image {
+    width: 350px;
+    height: auto;
+    margin: auto 10px auto 10px;
+    border-radius: 10px;
+}
+
+.photo {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+    margin: 0%;
+}
+
+.contPhoto {
+    background-color: rgba(153, 152, 152, 0.752);
+    display: grid;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 20px;
+    padding: 40px;
+    row-gap: 10px;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 50px;
+        width: 100%;
+    }
+
+    .galery::after,
+    .galery::before {
+        width: 100%;
+        left: 0;
+        margin-left: 0;
+    }
+
+    h3 {
+        margin-left: 0;
+    }
+
+    .contenedor {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .image {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .contPhoto {
+        margin-left: 0;
+        margin-right: 0;
+        padding: 20px;
+    }
+}

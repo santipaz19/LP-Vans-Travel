@@ -1,0 +1,12 @@
+.contenedor {
+    object-fit: contain;
+    position: relative;
+    display: inline-block;
+}
+
+
+
+.texto {
+    color: black;
+    font-size: 69px;
+}

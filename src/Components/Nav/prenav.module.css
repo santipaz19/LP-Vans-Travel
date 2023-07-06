@@ -1,0 +1,47 @@
+.items {
+    background-color: #14567f;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 2em;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+
+span {
+    align-items: center;
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(209, 209, 209);
+}
+
+.logos {
+    width: auto;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    padding-right: 5px;
+    opacity: 0.9
+}
+
+.links {
+    align-items: center;
+    display: flex;
+    padding-right: 60px;
+    padding-left: 60px;
+    opacity: 0.8;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    transform: scale(1);
+
+}
+
+.links:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+span:hover {
+    transition: color 0, 3s ease;
+    color: aliceblue;
+}
