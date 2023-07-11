@@ -14,11 +14,11 @@ export default function SubNav() {
                     <div className={style.column}>
                         <Link to={'https://wa.link/9z2lyw'} target="_blank" className={style.links}>
                             <img className={style.logos} src={wpp} alt="whatsapp" />
-                            <span>Escribinos</span>
+                            <h4 className={style.text}>Escribinos</h4>
                         </Link>
                         <Link to={'https://www.instagram.com/trasladoslpvans/'} target="_blank" className={style.links}>
                             <img className={style.logos} src={ig} alt="instagram" />
-                            <span>Seguinos en Instagram</span>
+                            <h4 className={style.text}>Seguinos en Instagram</h4>
                         </Link>
                     </div>
                     <div className={style.column2}>

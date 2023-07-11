@@ -4,7 +4,22 @@
     display: inline-block;
 }
 
+.vans {
+    display: flex;
+    justify-content: space-around;
+}
 
+.img {
+    width: 30%;
+    height: auto;
+}
+
+.subTittle {
+    color: rgb(93, 91, 91);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 
 .texto {
     color: black;
