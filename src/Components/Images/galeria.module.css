@@ -15,29 +15,27 @@ h1 {
 .galery::after {
     content: "";
     display: block;
-    width: 37%;
+    width: 35%;
     height: 4px;
     border-radius: 20px;
     position: absolute;
     background-color: rgb(93, 91, 91);
     top: 56%;
-    left: 63%;
+    left: 65%;
     right: 0;
-    margin-left: auto;
-    margin-right: auto;
     z-index: 1;
-
 }
 
 .galery::before {
     content: "";
     display: block;
-    width: 37%;
+    width: 35%;
     height: 4px;
     border-radius: 20px;
     position: absolute;
     background-color: rgb(93, 91, 91);
     top: 56%;
+
     z-index: 1;
 }
 
@@ -54,20 +52,23 @@ h3 {
     text-align: center;
     justify-content: center;
     margin-top: 30px;
+    margin-bottom: 100px;
 }
 
 .image {
     width: 350px;
     height: auto;
-    margin: auto 10px auto 10px;
+    margin: 10px 10px auto 10px;
     border-radius: 10px;
+    display: flex;
 }
 
 .photo {
-    width: 80%;
+    width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
-    margin: 0%;
+    margin: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 2fr));
+    place-items: center;
 }
 
 .contPhoto {
@@ -78,6 +79,7 @@ h3 {
     border-radius: 20px;
     padding: 40px;
     row-gap: 10px;
+
 }
 
 /* Estilos para dispositivos móviles */
@@ -105,13 +107,14 @@ h3 {
     }
 
     .image {
-        width: 100%;
+        width: 80%;
+        height: auto;
         margin: 10px 0;
     }
 
     .contPhoto {
-        margin-left: 0;
-        margin-right: 0;
+        margin-left: 10px;
+        margin-right: 10px;
         padding: 20px;
     }
 }

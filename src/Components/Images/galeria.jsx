@@ -10,8 +10,7 @@ export default function Gallery() {
 
 
     return (
-        <div
-        >
+        <div>
             <div className={style.contenedor}>
                 <h1 className={style.galery}><div >GALERIA</div></h1>
                 <h3>Algunas fotos de nuestros viajes</h3>

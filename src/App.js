@@ -6,6 +6,7 @@ import Gallery from './Components/Images/galeria';
 import Us from './Components/About/about-us';
 import PreNav from './Components/Nav/prenav'
 import Contact from './Components/Contact/contact';
+import SubNav from './Components/SubNav/subnav';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path='/galeria' element={<Gallery />} />
         <Route path='/contacto' element={<Contact />} />
       </Routes>
+      <SubNav />
     </div >
   );
 }

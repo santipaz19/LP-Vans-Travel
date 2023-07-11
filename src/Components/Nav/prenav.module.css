@@ -6,6 +6,7 @@
     height: 2em;
     padding: 10px;
     margin-bottom: 20px;
+    width: auto;
 
 }
 
@@ -33,6 +34,7 @@ span {
     opacity: 0.8;
     transition: opacity 0.3s ease, transform 0.3s ease;
     transform: scale(1);
+
 
 }
 
