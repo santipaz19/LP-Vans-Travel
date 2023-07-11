@@ -5,6 +5,7 @@ import ig from '../../img/igcolor.png'
 import logo from '../../img/vansedit.png'
 
 export default function SubNav() {
+
     return (
         <div>
             <div className={style.allCont}>
@@ -21,7 +22,39 @@ export default function SubNav() {
                         </Link>
                     </div>
                     <div className={style.column2}>
-                        <h3>mas informacion</h3>
+                        <h3 className={style.text}>Horario de atencion:</h3>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>Lunes:</td>
+                                    <td>8:00 a 21:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Martes:</td>
+                                    <td>8:00 a 21:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Miercoles:</td>
+                                    <td>8:00 a 21:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Jueves:</td>
+                                    <td>8:00 a 21:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Viernes:</td>
+                                    <td>8:00 a 21:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Sabado:</td>
+                                    <td>8:00 a 21:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Domingo:</td>
+                                    <td>8:00 a 21:00</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
                 <div className={style.copyCont}>

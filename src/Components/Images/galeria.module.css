@@ -40,7 +40,7 @@ h1 {
 }
 
 
-h3 {
+.subTittle {
     margin-left: 40px;
     margin-top: 10px;
     color: rgb(93, 91, 91);
@@ -56,31 +56,31 @@ h3 {
 }
 
 .image {
-    width: 350px;
+    width: 100%;
     height: auto;
-    margin: 10px 10px auto 10px;
+    margin: 10px;
     border-radius: 10px;
     display: flex;
-}
-
-.photo {
-    width: 100%;
-    display: grid;
-    margin: 10px;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 2fr));
-    place-items: center;
+    margin-bottom: 20px;
 }
 
 .contPhoto {
     background-color: hsl(201, 64%, 74%);
-    display: grid;
+    display: flex;
     margin-left: 40px;
     margin-right: 40px;
     border-radius: 20px;
     padding: 40px;
-    row-gap: 10px;
-
+    /* row-gap: 10px; */
+    flex-wrap: wrap;
 }
+
+.photo {
+    width: 100%;
+    flex: 25%;
+    padding: 10px;
+}
+
 
 /* Estilos para dispositivos móviles */
 @media (max-width: 768px) {
@@ -107,9 +107,13 @@ h3 {
     }
 
     .image {
-        width: 80%;
+        width: 100%;
         height: auto;
-        margin: 10px 0;
+        margin: 10px;
+    }
+
+    .photo {
+        flex: 100%;
     }
 
     .contPhoto {

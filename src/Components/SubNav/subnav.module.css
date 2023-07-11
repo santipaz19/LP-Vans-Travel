@@ -19,9 +19,10 @@
 }
 
 .texto {
-    color: black;
+    color: rgb(0, 0, 0);
     align-items: center;
-    width: fit-content;
+    width: 100%;
+
 }
 
 
@@ -38,12 +39,15 @@
     flex: 1;
     display: grid;
     justify-content: flex-start;
-    width: fit-content;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
 }
 
 .logo {
     position: relative;
-    width: 100%;
+    width: 80%;
     height: auto;
     justify-content: center;
     align-items: center;
@@ -66,11 +70,22 @@ span {
     color: rgb(209, 209, 209);
 }
 
+tr {
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    color: rgb(204, 201, 201);
+}
+
 .links {
     align-items: center;
     display: flex;
     width: fit-content;
     margin-bottom: 10px;
+}
+
+.text {
+    color: rgb(204, 201, 201);
 }
 
 .copy {
@@ -80,6 +95,7 @@ span {
     padding: 0px;
     margin-bottom: 0px;
     bottom: 0;
+    color: rgb(204, 201, 201);
 }
 
 .copyCont {
