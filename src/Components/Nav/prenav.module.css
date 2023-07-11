@@ -45,3 +45,20 @@ span:hover {
     transition: color 0, 3s ease;
     color: aliceblue;
 }
+
+@media (max-width: 768px) {
+    .items {
+        background-color: #14567f;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 2em;
+        padding: 10px;
+    }
+
+    .links {
+        display: flex;
+        align-items: center;
+        padding-right: 20px;
+    }
+}

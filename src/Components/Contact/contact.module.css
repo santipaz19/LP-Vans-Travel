@@ -6,9 +6,11 @@
     margin: 30px;
 }
 
+
+
 .contacts::after {
     content: "";
-    display: block;
+    display: flex;
     width: 33%;
     height: 4px;
     border-radius: 20px;
@@ -25,7 +27,7 @@
 
 .contacts::before {
     content: "";
-    display: block;
+    display: flex;
     width: 33%;
     height: 4px;
     border-radius: 20px;

@@ -53,6 +53,7 @@ h3 {
     align-items: center;
     text-align: center;
     justify-content: center;
+    margin-top: 30px;
 }
 
 .image {
@@ -70,7 +71,7 @@ h3 {
 }
 
 .contPhoto {
-    background-color: rgba(153, 152, 152, 0.752);
+    background-color: hsl(201, 64%, 74%);
     display: grid;
     margin-left: 40px;
     margin-right: 40px;
@@ -91,6 +92,7 @@ h3 {
         width: 100%;
         left: 0;
         margin-left: 0;
+        height: 0px;
     }
 
     h3 {
