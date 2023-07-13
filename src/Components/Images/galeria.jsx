@@ -6,6 +6,7 @@ import viaje from '../../img/viajes.jpg'
 import viaje1 from '../../img/viajes1.jpg'
 import viaje2 from '../../img/viajes2.jpg'
 import viaje3 from '../../img/viajes3.jpg'
+import { Fade } from "react-awesome-reveal";
 
 // import axios from 'axios'
 // import React, { useEffect, useState } from 'react';
@@ -16,22 +17,32 @@ export default function Gallery() {
     return (
         <div>
             <div className={style.contenedor}>
-                <h1 className={style.galery}><div >GALERIA</div></h1>
-                <h3 className={style.subTittle}>Algunas fotos de nuestros viajes</h3>
+                <Fade triggerOnce='false' damping={0.2} direction='down' duration='1500' >
+                    <h1 className={style.galery}>
+                        <div >GALERIA</div>
+                    </h1>
+                    <h3 className={style.subTittle}>Algunas fotos de nuestros viajes</h3>
+                </Fade>
             </div>
             <div className={style.contPhoto}>
                 <div className={style.photo}>
-                    <img className={style.image} src={img1} alt="" />
-                    <img className={style.image} src={viaje2} alt="" />
+                    <Fade cascade damping={0.2} triggerOnce='false' direction="up">
+                        <img className={style.image} src={img1} alt="" />
+                        <img className={style.image} src={viaje2} alt="" />
+                    </Fade>
                 </div>
                 <div className={style.photo}>
-                    <img className={style.image} src={viaje} alt="" />
-                    <img className={style.image} src={viaje3} alt="" />
-                    <img className={style.image} src={viaje1} alt="" />
+                    <Fade cascade damping={0.2} triggerOnce='false' direction="up" >
+                        <img className={style.image} src={viaje} alt="" />
+                        <img className={style.image} src={viaje3} alt="" />
+                        <img className={style.image} src={viaje1} alt="" />
+                    </Fade>
                 </div>
                 <div className={style.photo}>
-                    <img className={style.image} src={img2} alt="" />
-                    <img className={style.image} src={img3} alt="" />
+                    <Fade cascade damping={0.2} triggerOnce='false' direction="up" >
+                        <img className={style.image} src={img2} alt="" />
+                        <img className={style.image} src={img3} alt="" />
+                    </Fade>
                 </div>
             </div>
         </div >)

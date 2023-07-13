@@ -56,6 +56,10 @@ export default function SubNav() {
                             </tbody>
                         </table>
                     </div>
+                    <div className={style.auth}>
+                        <h4 className={style.copy}>|Autorizados por: </h4>
+                        <img src='https://control.cnrt.gob.ar/assets/img/logo_cnrt_color.png' alt='cnrt' className={style.cnrt} />
+                    </div>
                 </div>
                 <div className={style.copyCont}>
                     <h5 className={style.copy}>Copyright © 2023 LP Vans Travel | Todos los derechos reservados.</h5>
