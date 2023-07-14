@@ -16,9 +16,9 @@ export default function Us() {
     };
     return (
         <div>
-            <div className={style.contenedor}>
+            {/* <div className={style.contenedor}>
                 <h1 className={style.contacts}>Nosotros</h1>
-            </div>
+            </div> */}
             {/* <img className={style.img} src={combi} alt='' /> */}
             <div className={style.about}>
                 <div className={style.cont}>
@@ -40,17 +40,17 @@ export default function Us() {
                     </div>
 
                 </div>
-                <div className={style.info} >
-                    <h4>
+                <div className={style.continfo} >
+                    <h4 className={style.info}>
                         Desde el año 2000, en LP Vans Travel nos enorgullece brindar servicios exclusivos de traslado de pasajeros. Contamos con camionetas de 15 y 19 asientos, todas habilitadas por la Comisión Nacional de Regulación del Transporte, para que disfrutes de viajes seguros y comodos.
                     </h4>
-                    <h4>
+                    <h4 className={style.info}>
                         Actualmente, brindamos servicios para cubrir distintas necesidades de transporte. Ya sea para eventos especiales, viajes corporativos, mini turismo por Argentina o servicios personalizados para empresas y particulares, estamos aquí para ayudarte.
                     </h4>
-                    <h4>
-                        En LP Vans Travel valoramos la confianza que depositas en nosotros. Nuestro objetivo es brindarte un servicio de alta calidad, adaptado a tus necesidades.
+                    <h4 className={style.info}>
+                        En LP Vans Travel valoramos la confianza que depositas en nosotros. Nuestro objetivo es brindarte un servicio de alta calidad y adaptado a tus necesidades.
                     </h4>
-                    <h4>
+                    <h4 className={style.info}>
                         Únete a nuestra familia en LP Vans Travel, donde nos esforzamos por superar tus expectativas en cada viaje. ¡Te invitamos a disfrutar de la comodidad y seguridad que ofrecemos en nuestros traslados!
 
                     </h4>
