@@ -11,15 +11,15 @@ export default function PreNav() {
         <div className={style.items}>
             <a href={`mailto:${email}`} title={`subject=${encodeURIComponent(subject)}`} className={style.links}>
                 <img className={style.logos} src={mail} alt="mail" />
-                <span>LPVANSTRAVEL@GMAIL.COM</span>
+                <span className={style.text}>LPVANSTRAVEL@GMAIL.COM</span>
             </a>
             <Link to={'https://wa.link/9z2lyw'} target="_blank" className={style.links}>
                 <img className={style.logos} src={wpp} alt="whatsapp" />
-                <span>+54 221-538-3210</span>
+                <span className={style.text} >+54 221-538-3210</span>
             </Link>
             <Link to={'https://www.instagram.com/trasladoslpvans/'} target="_blank" className={style.links}>
                 <img className={style.logos} src={ig} alt="instagram" />
-                <span>TRASLADOSLPVANS</span>
+                <span className={style.text} >TRASLADOSLPVANS</span>
             </Link>
         </div>)
 }

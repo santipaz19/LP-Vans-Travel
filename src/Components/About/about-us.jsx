@@ -12,7 +12,8 @@ export default function Us() {
         showStatus: false,
         showIndicators: false,
         showThumbs: false,
-        interval: '1500'
+        interval: '1500',
+        showArrows: false
     };
     return (
         <div>

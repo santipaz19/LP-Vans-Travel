@@ -66,10 +66,10 @@ h1 {
 }
 
 .contPhoto {
-    background-color: hsl(201, 64%, 74%);
+    background-color: hsl(201, 78%, 82%);
     display: flex;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
     border-radius: 20px;
     padding: 40px;
     /* row-gap: 10px; */

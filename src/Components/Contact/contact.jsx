@@ -3,7 +3,8 @@ import mail from '../../img/logomail.png'
 import wpp from '../../img/wpplogo.png'
 import { Fade } from 'react-awesome-reveal';
 import { Link } from 'react-router-dom'
-import { useForm, ValidationError } from '@formspree/react';
+import { useForm } from '@formspree/react';
+
 
 export default function Contact() {
     const email = 'lpvanstravel@gmail.com'

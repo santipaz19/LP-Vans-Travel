@@ -11,7 +11,7 @@ import SubNav from './Components/SubNav/subnav';
 function App() {
   return (
     <div className='app'>
-      <PreNav />
+      {/* <PreNav /> */}
       <Nav />
       <Routes>
         <Route path='/' element={<Home />} />

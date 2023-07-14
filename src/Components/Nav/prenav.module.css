@@ -1,5 +1,10 @@
+@font-face {
+    font-family: fuente;
+    src: url('../../img/Geologica-VariableFont_CRSV\,SHRP\,slnt\,wght.ttf');
+}
+
 .items {
-    background-color: #14567f;
+    background-color: #41A7E8;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -11,11 +16,11 @@
 
 }
 
-span {
+.text {
     align-items: center;
     font-size: 18px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: rgb(209, 209, 209);
+    font-family: 'fuente';
+    color: rgb(0, 0, 0);
 }
 
 .logos {
