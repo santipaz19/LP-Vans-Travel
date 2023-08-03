@@ -7,7 +7,7 @@
     background-color: #41A7E8;
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: fixed;
     height: 2em;
     padding-top: 10px;
     padding-bottom: 10px;

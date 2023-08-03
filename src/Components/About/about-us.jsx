@@ -34,12 +34,11 @@ export default function Us() {
                             <img src={carrusel3} alt="imagen" className={style.img} />
                         </div>
                     </Carousel>
-                    <div className={style.overlayContainer}>
-                        <div className={style.overlay}>
-                            <h2 className={style.text}>LP Vans Travel</h2>
-                        </div>
+                </div>
+                <div className={style.overlayContainer}>
+                    <div className={style.overlay}>
+                        <h2 className={style.text}>LP Vans Travel</h2>
                     </div>
-
                 </div>
                 <div className={style.continfo} >
                     <h4 className={style.info}>

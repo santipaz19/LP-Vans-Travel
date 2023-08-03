@@ -5,7 +5,6 @@ import { Fade } from 'react-awesome-reveal';
 import { Link } from 'react-router-dom'
 import { useForm } from '@formspree/react';
 
-
 export default function Contact() {
     const email = 'lpvanstravel@gmail.com'
     const subject = 'Presupuesto'
@@ -13,7 +12,7 @@ export default function Contact() {
 
     return (
         <div>
-            <Fade cascade triggerOnce='false' damping={0.2} direction='down' duration='1500' >
+            <Fade cascade triggerOnce='false' damping={0.2} duration='1800' >
                 <div className={style.contenedor}>
                     <h1 className={style.contacts}>CONTACTO</h1>
                 </div>

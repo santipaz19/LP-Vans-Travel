@@ -17,7 +17,7 @@ export default function Gallery() {
     return (
         <div>
             <div className={style.contenedor}>
-                <Fade triggerOnce='false' damping={0.2} direction='down' duration='1500' >
+                <Fade triggerOnce='false' damping={0.2} duration='1800' >
                     <h1 className={style.galery}>
                         <div >GALERIA</div>
                     </h1>

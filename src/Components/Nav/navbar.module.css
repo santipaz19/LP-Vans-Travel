@@ -1,5 +1,5 @@
 .items {
-    background-color: #55A8FF;
+    background-color: hsl(201, 75%, 45%);
     display: flex;
     justify-content: space-around;
     align-items: center;

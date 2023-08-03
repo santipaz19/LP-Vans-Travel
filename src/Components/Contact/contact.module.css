@@ -64,7 +64,7 @@
 }
 
 .form {
-    background-color: hsl(201, 75%, 45%);
+    background-color: #b0daf1ff;
     height: auto;
     margin: 40px;
     padding: 30px;
@@ -107,4 +107,14 @@
     justify-content: center;
     align-items: center;
     font-size: 40px;
+}
+
+@media (max-width: 1300px) {
+    .contacts::after {
+        visibility: hidden;
+    }
+
+    .contacts::before {
+        visibility: hidden;
+    }
 }

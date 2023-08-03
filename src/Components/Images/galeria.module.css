@@ -66,12 +66,13 @@ h1 {
 }
 
 .contPhoto {
-    background-color: hsl(201, 78%, 82%);
+    /* background-color: hsl(201, 78%, 82%); */
     display: flex;
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 20px;
-    padding: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
     /* row-gap: 10px; */
     flex-wrap: wrap;
 }
@@ -82,20 +83,21 @@ h1 {
     padding: 10px;
 }
 
+@media (max-width: 1300px) {
+    .galery::after {
+        visibility: hidden;
+    }
+
+    .galery::before {
+        visibility: hidden;
+    }
+}
 
 /* Estilos para dispositivos móviles */
 @media (max-width: 768px) {
     h1 {
         font-size: 50px;
         width: 100%;
-    }
-
-    .galery::after,
-    .galery::before {
-        width: 100%;
-        left: 0;
-        margin-left: 0;
-        height: 0px;
     }
 
     h3 {

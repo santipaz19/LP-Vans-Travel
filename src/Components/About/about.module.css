@@ -14,37 +14,6 @@
 }
 
 
-
-.contacts::after {
-    content: "";
-    display: flex;
-    width: 33%;
-    height: 4px;
-    border-radius: 20px;
-    position: absolute;
-    background-color: rgb(93, 91, 91);
-    top: 56%;
-    left: 64%;
-    right: 0;
-    margin-left: 60px;
-    margin-right: auto;
-    z-index: 1;
-
-}
-
-.contacts::before {
-    content: "";
-    display: flex;
-    width: 33%;
-    height: 4px;
-    border-radius: 20px;
-    position: absolute;
-    background-color: rgb(93, 91, 91);
-    top: 56%;
-    right: 68%;
-    z-index: 1;
-}
-
 .text {
     font-size: 40px;
     margin: 15px;
@@ -101,7 +70,7 @@
     padding: 10px;
     margin-bottom: 40px;
     margin-top: 40px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(225, 224, 224, 0.781);
     border-radius: 10px;
     margin-left: 10px;
     width: 100%;
@@ -110,14 +79,10 @@
 
 .overlay {
     position: absolute;
-    /* top: 200px; */
-    /* left: 20px; */
-    /* z-index: 999; */
     color: rgb(254, 254, 254);
     font-size: 24px;
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    /* background-color: hsla(0, 0%, 40%, 0.552); */
     height: fit-content;
     border-radius: 4px;
 }
