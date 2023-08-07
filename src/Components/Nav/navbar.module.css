@@ -16,13 +16,13 @@
 p {
     font-size: 26px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: antiquewhite;
+    color: rgb(255, 255, 255);
     padding: 20px;
     transition: color 0.3s ease;
 }
 
 p:hover {
-    color: black;
+    color: #000000;
     border-bottom: solid 2px black;
 }
 
